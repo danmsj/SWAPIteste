@@ -13,7 +13,7 @@ pipeline {
                 }
             }
         }
-
+}
     post {
         success {
             echo 'Pipeline executado com sucesso!'
@@ -27,5 +27,4 @@ pipeline {
             echo 'Pipeline finalizado.'
         }
     }
-}
 }
