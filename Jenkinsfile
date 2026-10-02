@@ -26,7 +26,6 @@ pipeline {
                                     call "%SCANNER_HOME%\\bin\\sonar-scanner.bat" ^
                                     -Dsonar.projectKey=SWAPIteste ^
                                     -Dsonar.projectName=SWAPIteste ^
-                                    -Dsonar.sources=src ^
                                     -Dsonar.java.binaries=target/classes ^
                                     -Dsonar.tests=src/test/java
                                 '''
